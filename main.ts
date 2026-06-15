@@ -97,7 +97,7 @@ namespace custom {
      * 指定した方向のセンサーが白かどうか判定します
      * @param direction センサーの方向
      */
-    //% block="%direction のセンサが白だったら"
+    //% block="%direction のセンサの下が白"
     //% group="センサー"
     export function isWhite(direction: SensorDirection): boolean {
         let sensorValue = 0
